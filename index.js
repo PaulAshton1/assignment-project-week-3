@@ -82,7 +82,9 @@ function calculateAkanDay(){
         const last_result=document.getElementById("submit");
         last_result.innerHTML = `You were born on a ${dyy}, your Akan name is ${akn}.`;
     }
-
+ 
+    document.getElementById("birthdayForm").addEventListener("submit", function (event)) {
+    event.preventDefault()};
 
 // if (gender=='male') {
 //     greeting = "Good day";
