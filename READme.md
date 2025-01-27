@@ -14,7 +14,7 @@ users to calculate their Akan name based on their date of birth and gender.
 -
 Contact Information: 0798149502
 
-License and Copyright: MIT License
+License and Copyright: MIT License (or any applicable license)
   -MIT License
 
 Copyright (c) 2025 PAUL ASHTON
