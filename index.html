@@ -3,42 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akane name generator</title> 
+    <title>Akan name generator</title> 
 
     <link rel="stylesheet" href="index.css">
 
 </head>
 
 
- <script src="index.js"></script>
+<script src="index.js"></script>
 <body>
   <header>
+        <h1>Akan Name Generator</h1>
+        <p>Discover your Akan name based on your birthday and gender!</p>
+        <button class="cta-button" onclick="scrollToForm()">Get Started</button>
+  
 
-     <nav>
-        <div>
-          <h1>AKANE NAME GENERATOR</h1>
-        </div>
-         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Culture</a></li>
-            <li><a href="#">About</a></li>
-         </ul>
-     </nav>
- 
-    <article>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#aboutSection">About</a>
+        <a href="#formContainer">Get Started</a>
+    </nav>
+
+
+
+    <!-- <article>
         <h1>Ghananian culture </h1>
         <p>Lorem ipsum dolor sit amet consectetur.</p>
 
     </article>
-    
-     </header>
-     <body>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias optio magni similique quas. Enim odio ab rem tempora laudantium, ullam exercitationem ut, dolores nihil natus modi facilis laboriosam nulla cupiditate tempore. Tempore, iure dolorum. Quam enim illum laborum beatae dolor consequuntur optio quibusdam accusantium eaque facere. Voluptate laudantium doloribus velit.</p>
-        <P>Please insert your date of birth below</P>
-        <form>
-        <h1>Akan Day Name Calculator</h1>
+     -->
+    </header>
         
-        <form id="akanForm">
+     <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisic -->
+        <form>
+            
+            <h1>Akan Day Name Calculator</h1>
+        </form>
+
+        <!-- Form section -->
+         <form id="akanForm" class="akanForm">
             <label for="birthdate">Enter your birthdate:</label><br>
             <input type="date" id="birthdate" required><br>
         
@@ -48,23 +51,27 @@
                 <option value="female">Female</option>
             </select><br>
         
-            <button type="button" onclick="calculateAkanDay()">Get Akan Day Name</button>
+            <button type="button" onclick="calculateAkanDay()">Submit</button>
         </form>
-        
-        <div id="result"></div>
-      <div>
-        <div id="about">
-                <h2>About Akan Day Name Calculator</h2>
+        <div class="results1">
+        <p id="submit"></p>
+        </div>
+     <section>
+        <section id="#about">
+                <h2>About Akane Day Name Calculator</h2>
                 <p>This application calculates your Akan day name based on the date and gender you provide. The Akan day names are
                     based on the traditional naming system from the Akan people of Ghana, which assigns a name to each day of
                     the week.</p>
                 <p>The day name is determined by the day of the week you were born on. For example, if you were born on a
                     Monday, your Akan name would be either "Kwadwo" (for males) or "Adwoa" (for females).</p>
                 <p>Enter your birthdate and gender, and the application will show you your Akan day name!</p>
-            </div>
-        </div>
-    </div>
+                </section>
+            </section>
+            
+    
+    <footer>
+    <p>&copy; 2025 Akan Name Generator. All Rights Reserved.</p>
+</footer>
 
-</body>
 </body>
 </html>

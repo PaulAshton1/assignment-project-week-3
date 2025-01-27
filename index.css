@@ -1,91 +1,117 @@
-body {
-    font-family: "Roboto",
-    sans-serif
-    
-}
-
-header{
-    background-color: #666;
-        padding: 30px;
-        text-align: center;
-        font-size: 35px;
-        color: white;
-}
-
-nav {
-    float: left;
-        width: 30%;
-        height: 300px;
-        background: #ccc;
-        padding: 20px;
-        justify-content: space-between;
-        color: blue;
-        margin: auto;
-
-}
-
-nav ul {
-        list-style-type: none;
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(239, 245, 245);
+            margin: 0;
             padding: 0;
-}
+        }
 
-a{
-    text-decoration: none;
-}
+        header {
+            background-color: black;
+            color: aliceblue;
+            padding: 15px 0;
+            text-align: center;
+        }
 
-li{
-    list-style: none;
-    display: inline-block;
-}
+                h1,
+                h2 {
+                    color: #333;
+                    font-size: 45px;
+                }
+        
+                /* Navbar */
+                nav {
+                    background-color: black;
+                    padding: 10px;
+                    text-align: center;
+                }
+        
+                nav a {
+                    color: white;
+                    text-decoration: none;
+                    margin: 0 15px;
+                    font-size: 12px;
 
-nav ul li a:hover{
-    color: black;
-    transition: 5s ease-in-out;
-}
+                }
+        
+                nav a:hover {
+                    text-decoration: underline;
+                }
 
-/* article{
-    float : left;
-    padding: 20px;
-    width: 70%;
-    background-color: #f1f1f1;
-    height: 300px;
-} */
+                form h1 {
+                    font-size: 25px;
+                    text-decoration: underline;
+                    text-align: center;
+                }
+     
 
- body {
-     font-family: Arial, sans-serif;
-     margin: 20px;
-     padding: 20px;
- }
+                   .akanForm {
+                       background-color: white;
+                       padding: 30px;
+                       border-radius: 8px;
+                       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                       max-width: 500px;
+                       margin: 40px auto;
+                   }
 
- input,
- select,
- button {
-     padding: 10px;
-     margin: 10px 0;
-     font-size: 16px;
- }
+                    .akanForm{
+                    font-size: 1.1em;
+                    }
 
- #result {
-     margin-top: 20px;
-     font-size: 18px;
-     font-weight: bold;
- }
+                    .akanForm input,
+                    .akanForm select {
+                        padding: 12px;
+                        margin: 8px 0;
+                        border: 1px solid #ddd;
+                        border-radius: 4px;
+                        width: 100%;
+                    }
 
-  #about{
-      display: none;
-      position: fixed;
-      z-index: 1;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.4);
-      overflow: auto;
-  }
+                    .akanForm button {
+                        padding: 15px 30px;
+                        background-color: #473924;
+                        color: white;
+                        border: none;
+                        border-radius: 4px;
+                        cursor: pointer;
+                        width: 100%;
+                        font-size: 1.2em;
+                    }
 
-/* .about{
-    padding: 50px;
-    text-align: center;
-    background-color: #666;
-    color: white;
-} */
+                    .akaneForm button:hover {
+                    background-color: #b1965d;
+                    }
+
+
+                   #about {
+                        background-color: #eef;
+                        padding: 30px;
+                        margin: 40px 0;
+                        text-align: center;
+                        border-radius: 8px;
+                   }        
+                   
+                    #about h2 {
+                        font-size: 2em;
+                        margin-bottom: 20px;
+                    }
+
+                    #about p {
+                        font-size: 1.1em;
+                        margin-bottom: 20px;
+                    }
+                   .results1{
+                        justify-content: center;
+                        text-align: center;
+
+                   }
+
+                        footer {
+                            background-color: #333;
+                            color: white;
+                            padding: 20px 0;
+                            text-align: center;
+                        }
+                
+
+ 
+
