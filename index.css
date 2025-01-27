@@ -33,7 +33,7 @@
                 }
 
                 .cta-button:hover {
-                    background-color: #45a049;
+                    background-color: #7033a8;
                     color: white;
                 }
 
@@ -95,10 +95,12 @@
                         cursor: pointer;
                         width: 100%;
                         font-size: 1.7em;
+                        
                     }
 
-                    .akaneForm button:hover {
-                    background-color: #b1965d;
+                    .akanForm button:hover {
+                        background-color: #7033a8;
+                        color: white;
                     }
 
 
